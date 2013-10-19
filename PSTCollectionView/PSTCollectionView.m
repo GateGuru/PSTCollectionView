@@ -923,7 +923,6 @@ static void PSTCollectionViewCommonSetup(PSTCollectionView *_self) {
     if (shouldHighlight) {
         PSTCollectionViewCell *highlightedCell = [self cellForItemAtIndexPath:indexPath];
         highlightedCell.highlighted = YES;
-        highlightedCell.selected = YES;
         [_indexPathsForHighlightedItems addObject:indexPath];
 
         if (scrollPosition != PSTCollectionViewScrollPositionNone) {
