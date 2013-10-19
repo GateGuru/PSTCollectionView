@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'PSTCollectionView@TAFlights'
-  s.version = '1.1.0-TAFlights.1.0.0'
+  s.version = '1.1.0-TAFlights.1.0.1'
   s.summary = 'Open Source, 100% API compatible replacement of UICollectionView for iOS4+.'
   s.homepage = 'https://github.com/GateGuru/PSTCollectionView'
   s.license = {
